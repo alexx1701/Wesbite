@@ -1,0 +1,148 @@
+html { 
+    scroll-snap-type: y mandatory;
+    font-size: 62.5%; //1 rem 10 px 
+    //font-family: 'Smooch', cursive;
+    } 
+    
+* { 
+    
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+    } 
+    
+body { 
+    //scroll-snap-type: y mandatory;
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: auto;
+    color: white; 
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3rem;
+    position: relative;
+    background-color: #364145ff;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(54,65,69,1) 50%);
+    } 
+
+/* .container {
+    scroll-snap-type: y mandatory;
+    width: 100%;
+    height: 100%;
+}*/
+.name {
+    font-weight: 700;
+    font-size: 9rem;
+    color: rgb(193, 201, 204);
+    text-align: left;
+    //text-shadow: 2px 2px 4px rgba(0,0,0,0.50);
+    text-shadow: 1px 1px 2px rgba(242,116,5,0.50);
+    position: relative;
+    line-height: 7rem;
+    width: 5rem;
+   
+}
+.title {
+    font-weight: 200;
+    margin-left: 2rem;
+    font-size: 5rem;
+    
+}
+.titlepg2 {
+    font-weight: 200;
+    margin-left: 2rem;
+    font-size: 5rem;
+    margin-top: 5rem;
+}
+.textpg1 {
+    width: auto;
+    z-index: 2;
+    position: absolute;
+    align-self: center;
+    //margin-bottom: 2rem;;
+    //clip-path: circle(100px);
+    //background-color: #bbb;
+}
+.circle {
+    margin-top: 5rem;
+    height: 85vh;
+    width: 85vh;
+    max-height: 69rem;
+    max-width: 69rem;
+    min-height: 60rem;
+    min-width: 60rem;
+    background-color: #56696dff;
+    opacity: .8;
+    border-radius: 50%;
+    position: fixed;
+    z-index: 1;
+}
+
+nav {
+    height: 10vh;
+    display: flex;
+    width: 100%;
+}
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    height: 100%;
+    justify-content: space-around;
+    width: 50%;
+}
+section {
+    height: 100vh;
+    width: 100vw;
+    background-image: url(/images/edited_treefog_blk.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    scroll-snap-align: center;
+   
+}
+.page2 {
+   
+    background-image: url(/images/edited_treefog_blk.png);
+    
+}
+.page3 {
+
+    background-image: url(/images/blk_stars.jpg);
+   
+}
+.titlepg3 {
+    font-weight: 200;
+    font-size: 5rem;
+    margin-top: 2rem;
+    position: absolute;
+    
+}
+.cContainer{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.circle3 {
+    border-width: .1rem;
+    border-color: #f27405ff;
+    border-style: solid;
+    margin-top: 8rem;
+    height: 60vh;
+    width: 60vh;
+    border-radius: 50%;
+    background-image: url(/images/crescent.svg);
+    background-blend-mode: color-dodge;
+    background-size: cover;
+}
+.stars {
+    opacity: 1;
+    position: absolute;
+    align-self: flex-end;
+    margin-bottom: 5rem;
+}
+#star2{
+    margin-bottom: -2rem;
+}
