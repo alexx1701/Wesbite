@@ -19,7 +19,7 @@ gsap.to(circle, {
     scrub: 1
   }
 });
-
+/*
 let test = Math.floor(Math.random()) * 100
 const tl1 = gsap.timeline(
 {
@@ -53,6 +53,6 @@ const tl = gsap.timeline(
   let master = gsap.timeline()
   .add(scene1())
   .add(scene2(), "-=0")
-  
+  */
   
  

@@ -1,6 +1,4 @@
 html {
-  -ms-scroll-snap-type: y mandatory;
-      scroll-snap-type: y mandatory;
   font-size: 62.5%;
 }
 
@@ -117,7 +115,6 @@ section {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  scroll-snap-align: center;
 }
 
 .page2 {

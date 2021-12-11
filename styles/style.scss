@@ -1,5 +1,5 @@
 html { 
-    scroll-snap-type: y mandatory;
+    //scroll-snap-type: y mandatory;
     font-size: 62.5%; //1 rem 10 px 
     //font-family: 'Smooch', cursive;
     } 
@@ -98,7 +98,7 @@ section {
     background-size: cover;
     display: flex;
     justify-content: center;
-    scroll-snap-align: center;
+    //scroll-snap-align: center;
    
 }
 .page2 {
