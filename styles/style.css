@@ -52,9 +52,12 @@ body {
 
 .titlepg2 {
   font-weight: 200;
-  margin-left: 2rem;
   font-size: 5rem;
   margin-top: 5rem;
+  margin: auto;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  position: relative;
 }
 
 .textpg1 {
@@ -87,6 +90,7 @@ nav {
   display: -ms-flexbox;
   display: flex;
   width: 100%;
+  position: fixed;
 }
 
 .nav-links {
@@ -121,6 +125,10 @@ section {
 
 .page2 {
   background-image: url(/images/edited_treefog_blk.png);
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 50% 50%;
+      grid-template-columns: 50% 50%;
 }
 
 .page3 {

@@ -1,5 +1,22 @@
 gsap.registerPlugin(ScrollTrigger);
 
+let navBar = document.querySelector('nav');
+let logo = document.getElementsByClassName('logo');
+
+
+
+let toggleNav = () => {
+  if (navBar.hidden = true){
+    navBar.hidden = false;
+  }
+  else {
+    navBar.hidden = true;
+  }
+  console.log("wah")
+};
+
+logo.onclick = toggleNav();
+
 var scroll = new SmoothScroll('.navbar a[href*="#"]', {
   speed: 1000
 });
